@@ -1,0 +1,72 @@
+body { 
+  display: block;
+  width: 960px;
+  background: #777;
+  margin: 0 auto;
+  
+}
+.wrapper {
+  display: block;
+}
+.h1 {
+  background-color: ebebeb;
+  display:block;
+  margin-bottom: 2px;
+  text-align: center;
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  color: grey;
+}
+.container {
+  display: flex;
+  position: relative;
+  height: 200;
+}
+.aside { 
+  flex: 1;
+  height: 195px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  color: grey;
+  background-color: ebebeb;
+}
+.section { 
+  
+  flex: 1.5;
+  margin: 0 5px 0 0;
+  height: 195px;
+  border: 0em;
+  background-color: ebebeb;
+  text-align: center;
+  font-size: 18px;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter
+}       
+.article { 
+  display:block;
+  text-align: center;
+  width: 450px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: #777;
+  font-family: Arial, Helvetica, sans-serif;
+  color: ebebeb;
+  font-weight: lighter
+}          
+.handp { 
+  display: block;
+  width: 350px;
+  height: 40px;
+  background-color: ebebeb;
+  margin: 15px;
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: grey;
+  text-align: center
+}
